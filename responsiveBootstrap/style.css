@@ -1,13 +1,68 @@
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
 
-a {
-  color: orange;
+section {
+  padding: 50px 0;
 }
 
-a:hover {
-  color: black;
+.imgbox img {
+  width: 100%;
 }
-/*# sourceMappingURL=style.css.map */
+
+header {
+  padding: 25px 0;
+  background-color: #212529;
+}
+header .menu .imgbox {
+  width: 200px;
+}
+header .menu .imgbox img:hover {
+  cursor: pointer;
+}
+header .menu nav a {
+  margin: 20px;
+  color: #f4f4f4;
+  font-size: 20px;
+}
+header .menu nav a:hover {
+  color: #F1C634;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#welcome {
+  min-height: 100vh;
+  background-image: url("./assets/header-bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#welcome .textbox h1, #welcome .textbox h2 {
+  color: white;
+  text-align: center;
+}
+#welcome .textbox h2 {
+  font-size: 50px;
+  margin-top: 100px;
+}
+#welcome .textbox h1 {
+  font-size: 100px;
+  margin: 40px 0 70px;
+  font-weight: 700;
+}
+#welcome a {
+  background-color: #FFC800;
+  padding: 30px 70px;
+  border-radius: 8px;
+}
+#welcome a:hover {
+  background-color: #cfa60f;
+  cursor: pointer;
+  transition: 0.5s;
+}
+#welcome a h5 {
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
