@@ -14,6 +14,9 @@ section {
 header {
   padding: 25px 0;
   background-color: #212529;
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 header .menu .imgbox {
   width: 200px;
@@ -37,6 +40,7 @@ header .menu nav a:hover {
   background-image: url("./assets/header-bg.jpg");
   background-size: cover;
   background-position: center;
+  margin-top: 80px;
 }
 #welcome .textbox h1, #welcome .textbox h2 {
   color: white;
@@ -65,4 +69,42 @@ header .menu nav a:hover {
   font-size: 25px;
   font-weight: 700;
   color: white;
+}
+
+#services .textbox h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+#services .textbox h4 {
+  font-size: 25px;
+  margin: 16px 0 64px;
+  color: #6C757D;
+}
+#services .logo {
+  display: flex;
+  justify-content: center;
+}
+#services .logo i {
+  width: 130px;
+  height: 130px;
+  font-size: 60px;
+  color: #fff;
+  background-color: #FFC800;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#services .txt {
+  padding: 0 60px;
+}
+#services .txt h2 {
+  font-weight: 700;
+  font-size: 30px;
+  margin: 20px 0;
+}
+#services .txt p {
+  color: #6C757D;
+  line-height: 1.4;
+  font-size: 18px;
 }/*# sourceMappingURL=style.css.map */
