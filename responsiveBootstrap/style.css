@@ -250,4 +250,9 @@ header .menu nav a:hover {
 }
 #team .wid {
   width: 740px;
+}
+
+#platforms .imgbox {
+  width: 200px;
+  margin: 20px;
 }/*# sourceMappingURL=style.css.map */
