@@ -141,4 +141,53 @@ header .menu nav a:hover {
   margin-bottom: 10px;
   color: #6C757D;
   font-size: 18px;
+}
+
+#about .textbox {
+  padding: 0 25px;
+}
+#about .textbox h1 {
+  font-weight: 700;
+  font-size: 50px;
+}
+#about .textbox h4 {
+  font-size: 20px;
+  margin: 16px 0 64px;
+  color: #6C757D;
+}
+#about .textbox h3 {
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+#about .textbox p {
+  color: #6C757D;
+  font-size: 20px;
+  line-height: 1.4;
+}
+#about .imgbox {
+  width: 200px;
+}
+#about .imgbox img {
+  border: 7px solid #E9ECEF;
+  border-radius: 50%;
+}
+#about .box {
+  margin-top: 40px;
+  width: 174px;
+  height: 174px;
+  border: 7px solid #E9ECEF;
+  background-color: #FFC800;
+  border-radius: 50%;
+  padding: 0 40px;
+}
+#about .box h5 {
+  color: white;
+  font-weight: 700;
+  font-size: 22px;
+  text-align: center;
+  line-height: 1.4;
+}
+#about .wid {
+  width: 420px;
 }/*# sourceMappingURL=style.css.map */
