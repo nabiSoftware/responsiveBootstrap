@@ -255,4 +255,45 @@ header .menu nav a:hover {
 #platforms .imgbox {
   width: 200px;
   margin: 20px;
+}
+
+#contact .textbox h1 {
+  font-weight: 700;
+  font-size: 50px;
+}
+#contact .textbox h4 {
+  font-size: 20px;
+  margin: 16px 0 50px;
+  color: #6C757D;
+}
+#contact .box_inputs input {
+  width: 550px;
+  padding: 30px;
+  border: 1px solid #CED4DA;
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
+#contact .box_inputs input:hover {
+  border: 1px solid #FFC800;
+}
+#contact .box_input {
+  width: 550px;
+  height: 325px;
+  border: 1px solid #CED4DA;
+  border-radius: 10px;
+  padding: 20px;
+}
+#contact .box_input:hover {
+  border: 1px solid #FFC800;
+}
+#contact .btn {
+  background-color: #FFC800;
+  padding: 22px 60px;
+  border-radius: 5px;
+  opacity: 0.65;
+}
+#contact .btn h5 {
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
 }/*# sourceMappingURL=style.css.map */
