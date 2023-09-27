@@ -272,6 +272,11 @@ header .menu .icon {
   width: 200px;
   margin: 20px;
 }
+@media screen and (max-width: 991px) {
+  #platforms .imgbox {
+    width: 150px;
+  }
+}
 
 #contact .textbox h1 {
   font-weight: 700;
