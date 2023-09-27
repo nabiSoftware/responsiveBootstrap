@@ -34,6 +34,9 @@ header .menu nav a:hover {
   cursor: pointer;
   transition: 0.5s;
 }
+header .menu .icon {
+  display: none;
+}
 
 #welcome {
   min-height: 100vh;
