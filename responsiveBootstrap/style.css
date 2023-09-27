@@ -199,6 +199,14 @@ header .menu .icon {
 #about .wid {
   width: 420px;
 }
+@media screen and (max-width: 991px) {
+  #about .textbox {
+    width: 798px;
+  }
+  #about .textbox h1 h4 {
+    text-align: center;
+  }
+}
 
 #team {
   background-color: #F8F9FA;
