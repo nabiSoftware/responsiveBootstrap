@@ -111,6 +111,11 @@ header .menu .icon {
   line-height: 1.4;
   font-size: 18px;
 }
+@media screen and (max-width: 991px) {
+  #services .txt {
+    padding: 0 10px;
+  }
+}
 
 #portfolio {
   background-color: #F8F9FA;
