@@ -38,6 +38,11 @@ header .menu .icon {
   display: none;
 }
 
+@media screen and (max-width: 991px) {
+  nav {
+    display: none;
+  }
+}
 #welcome {
   min-height: 100vh;
   background-image: url("./assets/header-bg.jpg");
@@ -278,9 +283,14 @@ header .menu .icon {
   }
 }
 
+#contact {
+  background-image: url("./assets/map-image.png");
+  background-color: #212529;
+}
 #contact .textbox h1 {
   font-weight: 700;
   font-size: 50px;
+  color: white;
 }
 #contact .textbox h4 {
   font-size: 20px;
@@ -303,6 +313,7 @@ header .menu .icon {
   border: 1px solid #CED4DA;
   border-radius: 10px;
   padding: 20px;
+  background-color: white;
 }
 #contact .box_input:hover {
   border: 1px solid #FFC800;
@@ -317,6 +328,15 @@ header .menu .icon {
   color: white;
   font-weight: 700;
   font-size: 20px;
+}
+@media screen and (max-width: 991px) {
+  #contact .box_inputs input {
+    width: 300px;
+  }
+  #contact .box_input {
+    width: 400px;
+    height: 320px;
+  }
 }
 
 footer {
