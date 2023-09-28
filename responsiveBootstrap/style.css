@@ -155,6 +155,28 @@ header .menu .icon {
   color: #6C757D;
   font-size: 18px;
 }
+#portfolio .box .imgbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#portfolio .box .imgbox i {
+  position: absolute;
+  font-size: 50px;
+  color: white;
+  background-color: rgba(255, 200, 0, 0.9);
+  width: 356px;
+  height: 267px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+}
+#portfolio .box .imgbox i:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.25s;
+}
 
 #about .textbox {
   padding: 0 25px;
