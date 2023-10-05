@@ -226,15 +226,12 @@ header .menu .icon {
 #about .wid {
   width: 420px;
 }
-@media screen and (max-width: 991px) {
-  #about .textbox {
-    width: 798px;
-  }
-  #about .textbox h1 h4 {
-    text-align: center;
+
+@media screen and (max-width: 390px) {
+  #about .textbox p {
+    margin-bottom: 50px;
   }
 }
-
 #team {
   background-color: #F8F9FA;
 }
