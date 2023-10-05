@@ -392,4 +392,13 @@ footer .box .textbox .txt p {
 }
 footer .box .textbox .txt p:hover {
   cursor: pointer;
+}
+
+@media screen and (max-width: 390px) {
+  footer .icons {
+    margin-left: 30px;
+  }
+  footer p {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
