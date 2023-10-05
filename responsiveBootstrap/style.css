@@ -38,8 +38,8 @@ header .menu .icon {
   display: none;
 }
 
-@media screen and (max-width: 991px) {
-  nav {
+@media screen and (max-width: 390px) {
+  header nav {
     display: none;
   }
 }
