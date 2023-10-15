@@ -372,6 +372,9 @@ header .menu nav a:hover {
   #contact .box_inputs input {
     width: 368px;
   }
+  #contact .box_input {
+    width: 370px;
+  }
   #contact .btn {
     margin-top: 50px;
   }
