@@ -35,10 +35,12 @@ header .menu nav a:hover {
   cursor: pointer;
   transition: 0.5s;
 }
-header .menu .icon {
-  display: none;
-}
 
+@media screen and (max-width: 834px) {
+  header nav a {
+    display: none;
+  }
+}
 @media screen and (max-width: 390px) {
   header nav {
     display: none;
@@ -117,7 +119,7 @@ header .menu .icon {
   line-height: 1.4;
   font-size: 18px;
 }
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1160px) {
   #services .txt {
     padding: 0 10px;
   }
@@ -228,7 +230,7 @@ header .menu .icon {
   width: 420px;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 1160px) {
   #about .textbox p {
     margin-bottom: 50px;
   }
@@ -298,7 +300,7 @@ header .menu .icon {
   margin: 20px;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1160px) {
   #platforms {
     margin-left: 23px;
   }
@@ -353,7 +355,7 @@ header .menu .icon {
   font-size: 20px;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 1160px) {
   #contact .box_inputs input {
     width: 368px;
   }
@@ -395,7 +397,7 @@ footer .box .textbox .txt p:hover {
   cursor: pointer;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 1160px) {
   footer .icons {
     margin-left: 30px;
   }
