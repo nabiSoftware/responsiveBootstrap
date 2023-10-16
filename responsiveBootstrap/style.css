@@ -36,12 +36,7 @@ header .menu nav a:hover {
   transition: 0.5s;
 }
 
-@media screen and (max-width: 834px) {
-  header nav {
-    display: none;
-  }
-}
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 800px) {
   header nav {
     display: none;
   }
