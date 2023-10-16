@@ -363,7 +363,7 @@ header .menu nav a:hover {
   font-size: 20px;
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 767px) {
   #contact {
     margin-left: auto;
     margin-right: auto;
@@ -384,6 +384,24 @@ header .menu nav a:hover {
   }
 }
 @media screen and (max-width: 1200px) {
+  #contact {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #contact .btn {
+    margin-top: 40px;
+  }
+  #contact .box_inputs {
+    text-align: center;
+  }
+  #contact .box_inputs input {
+    width: 350px;
+  }
+  #contact .box_input {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+  }
   #contact .box_inputs input {
     width: 400px;
   }
