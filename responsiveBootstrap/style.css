@@ -293,6 +293,11 @@ header .menu nav a:hover {
   width: 740px;
 }
 
+@media screen and (max-width: 768px) {
+  #team .icons {
+    margin-bottom: 40px;
+  }
+}
 #platforms .imgbox {
   width: 200px;
   margin: 20px;
