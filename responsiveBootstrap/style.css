@@ -384,11 +384,8 @@ header .menu nav a:hover {
   }
 }
 @media screen and (max-width: 990px) {
-  #contact .box_inputs input {
-    width: 300px;
-  }
-  #contact .box_input {
-    width: 400px;
+  #contact .btn {
+    margin-top: 40px;
   }
 }
 @media screen and (max-width: 1200px) {
