@@ -307,6 +307,15 @@ header .menu nav a:hover {
     margin-right: auto;
   }
 }
+@media screen and (max-width: 990px) {
+  #platforms {
+    display: flex;
+    justify-content: space-between;
+  }
+  #platforms .imgbox {
+    width: 150px;
+  }
+}
 #contact {
   background-image: url("./assets/map-image.png");
   background-color: #212529;
