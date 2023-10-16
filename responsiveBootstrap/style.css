@@ -118,6 +118,9 @@ header .menu nav a:hover {
   #services .txt {
     padding: 0 10px;
   }
+  #services .txt p {
+    margin-bottom: 20px;
+  }
 }
 
 #portfolio {
