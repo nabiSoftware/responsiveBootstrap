@@ -114,14 +114,6 @@ header .menu nav a:hover {
   line-height: 1.4;
   font-size: 18px;
 }
-@media screen and (max-width: 768px) {
-  #services .txt {
-    padding: 0 10px;
-  }
-  #services .txt p {
-    margin-bottom: 20px;
-  }
-}
 
 #portfolio {
   background-color: #F8F9FA;
@@ -228,11 +220,6 @@ header .menu nav a:hover {
   width: 420px;
 }
 
-@media screen and (max-width: 768px) {
-  #about .textbox p {
-    margin-bottom: 50px;
-  }
-}
 #team {
   background-color: #F8F9FA;
 }
@@ -293,28 +280,11 @@ header .menu nav a:hover {
   width: 740px;
 }
 
-@media screen and (max-width: 768px) {
-  #team .icons {
-    margin-bottom: 40px;
-  }
-}
 #platforms .imgbox {
   width: 200px;
   margin: 20px;
 }
 
-@media screen and (min-width: 390px) {
-  #platforms .imgbox {
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (min-width: 768px) {
-  #platforms .imgbox {
-    width: 150px;
-  }
-}
 #contact {
   background-image: url("./assets/map-image.png");
   background-color: #212529;
