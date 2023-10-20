@@ -239,6 +239,14 @@ header .menu nav a:hover {
   width: 420px;
 }
 
+@media screen and (max-width: 767px) {
+  #about .textbox {
+    padding: 0 15px;
+  }
+  #about .textbox p {
+    margin-bottom: 50px;
+  }
+}
 #team {
   background-color: #F8F9FA;
 }
