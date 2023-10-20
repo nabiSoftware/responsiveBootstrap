@@ -129,6 +129,16 @@ header .menu nav a:hover {
   font-size: 18px;
 }
 
+@media screen and (max-width: 767px) {
+  #services .txt {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 991px) {
+  #services .txt {
+    padding: 0 35px;
+  }
+}
 #portfolio {
   background-color: #F8F9FA;
 }
