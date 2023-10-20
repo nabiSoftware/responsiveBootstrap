@@ -77,6 +77,20 @@ header .menu nav a:hover {
   color: white;
 }
 
+@media screen and (max-width: 300px) {
+  #welcome .textbox {
+    line-height: 1.2;
+  }
+  #welcome .textbox h1 {
+    font-size: 75px;
+  }
+  #welcome a {
+    padding: 25px 40px;
+  }
+  #welcome a h5 {
+    font-size: 30px;
+  }
+}
 #services .textbox h1 {
   font-size: 50px;
   font-weight: 700;
