@@ -313,10 +313,14 @@ header .menu nav a:hover {
   }
 }
 #platforms .imgbox {
-  width: 200px;
   margin: 20px;
 }
 
+@media screen and (max-width: 767px) {
+  #platforms .imgbox {
+    margin: 30px;
+  }
+}
 #contact {
   background-image: url("./assets/map-image.png");
   background-color: #212529;
