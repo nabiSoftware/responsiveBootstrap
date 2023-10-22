@@ -333,7 +333,7 @@ header .menu nav a:hover {
   }
 }
 #contact {
-  background-image: url("./assets/map-image.png");
+  background-image: url("/assets/map-image.png");
   background-color: #212529;
 }
 #contact .textbox h1 {
