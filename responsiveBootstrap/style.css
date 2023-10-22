@@ -25,6 +25,9 @@ header .menu .imgbox {
 header .menu .imgbox img:hover {
   cursor: pointer;
 }
+header .menu nav {
+  display: block;
+}
 header .menu nav a {
   margin: 20px;
   color: #f4f4f4;
@@ -37,8 +40,13 @@ header .menu nav a:hover {
 }
 
 @media screen and (max-width: 992px) {
-  header nav {
+  header nav a {
     display: none;
+  }
+  header nav i {
+    color: #969597;
+    font-size: 30px;
+    margin: 10px;
   }
 }
 #welcome {
