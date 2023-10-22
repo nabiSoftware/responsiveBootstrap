@@ -51,7 +51,7 @@ header .menu nav a:hover {
 }
 #welcome {
   min-height: 100vh;
-  background-image: url("./assets/header-bg.jpg");
+  background-image: url("/assets/header-bg.jpg");
   background-size: cover;
   background-position: center;
   margin-top: 70px;
