@@ -409,21 +409,22 @@ footer .box ul li i {
   color: white;
 }
 footer .box .textbox .txt {
-  margin-right: 20px;
+  margin: 15px;
 }
-footer .box .textbox .txt p {
+footer .box .textbox .txt h5 {
   font-size: 20px;
   color: #6C757D;
 }
-footer .box .textbox .txt p:hover {
+footer .box .textbox .txt h5:hover {
   cursor: pointer;
 }
 
-@media screen and (max-width: 767px) {
-  footer .icons {
-    margin-left: 30px;
+@media screen and (max-width: 992px) {
+  footer .box {
+    display: flex;
+    flex-direction: column;
   }
-  footer p {
-    display: none;
+  footer .box .minibox {
+    margin: 10px 0;
   }
 }/*# sourceMappingURL=style.css.map */
