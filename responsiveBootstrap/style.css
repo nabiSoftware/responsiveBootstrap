@@ -201,63 +201,62 @@ header .menu nav a:hover {
   font-size: 18px;
 }
 
-#about .textbox {
-  padding: 0 25px;
-}
 #about .textbox h1 {
-  font-weight: 700;
   font-size: 50px;
-}
-#about .textbox h4 {
-  font-size: 20px;
-  margin: 16px 0 64px;
-  color: #6C757D;
+  font-weight: 700;
 }
 #about .textbox h3 {
-  font-weight: 700;
-  font-size: 30px;
-  margin-bottom: 10px;
-}
-#about .textbox p {
-  color: #6C757D;
   font-size: 20px;
-  line-height: 1.4;
+  margin: 16px 0 50px;
+  color: #6C757D;
 }
-#about .imgbox {
-  width: 200px;
+#about ul .march, #about ul .july {
+  display: flex;
+  justify-content: flex-end;
 }
-#about .imgbox img {
-  border: 7px solid #E9ECEF;
+#about ul .imageList {
+  justify-content: center;
+}
+#about ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+}
+#about ul li .imgbox, #about ul li .image {
+  width: 160px;
+  height: 160px;
+  margin: 20px;
+  border: 5px solid #E9ECEF;
   border-radius: 50%;
+  overflow: hidden;
 }
-#about .box {
-  margin-top: 40px;
-  width: 174px;
-  height: 174px;
-  border: 7px solid #E9ECEF;
-  background-color: #FFC800;
-  border-radius: 50%;
-  padding: 0 40px;
+#about ul li .txt {
+  width: 41%;
+  line-height: 1.75;
 }
-#about .box h5 {
-  color: white;
+#about ul li .txt h2 {
   font-weight: 700;
-  font-size: 22px;
-  text-align: center;
-  line-height: 1.4;
+  font-size: 25px;
 }
-#about .wid {
-  width: 420px;
+#about ul li .txt p {
+  font-size: 20px;
+  color: #6C757D;
+}
+#about ul li .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFC800;
+}
+#about ul li .image h4 {
+  color: white;
+  padding: 30px;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.2;
 }
 
-@media screen and (max-width: 767px) {
-  #about .textbox {
-    padding: 0 15px;
-  }
-  #about .textbox p {
-    margin-bottom: 50px;
-  }
-}
 #team {
   background-color: #F8F9FA;
 }
