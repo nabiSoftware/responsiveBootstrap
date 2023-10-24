@@ -201,60 +201,60 @@ header .menu nav a:hover {
   font-size: 18px;
 }
 
-#about .textbox h1 {
+#about .textbox, #about .txtBeginnings, #about .txtMarch, #about .txtDecember, #about .txtJuly {
+  line-height: 1.3;
+}
+#about .textbox h1, #about .txtBeginnings h1, #about .txtMarch h1, #about .txtDecember h1, #about .txtJuly h1 {
   font-size: 50px;
   font-weight: 700;
 }
-#about .textbox h3 {
+#about .textbox h3, #about .txtBeginnings h3, #about .txtMarch h3, #about .txtDecember h3, #about .txtJuly h3 {
   font-size: 20px;
   margin: 16px 0 50px;
   color: #6C757D;
 }
-#about ul .march, #about ul .july {
+#about .box {
   display: flex;
-  justify-content: flex-end;
+  margin-bottom: 150px;
 }
-#about ul .imageList {
-  justify-content: center;
+#about .box .txtBeginnings, #about .box .txtDecember {
+  margin-right: 30px;
+  padding-right: 60px;
 }
-#about ul li {
-  display: flex;
-  align-items: center;
-  margin-bottom: 100px;
+#about .box .txtMarch, #about .box .txtJuly {
+  margin-left: 60px;
+  padding-left: 60px;
 }
-#about ul li .imgbox, #about ul li .image {
-  width: 160px;
-  height: 160px;
-  margin: 20px;
+#about .box .txtBeginnings h2, #about .box .txtMarch h2, #about .box .txtDecember h2, #about .box .txtJuly h2 {
+  font-weight: 700;
+  font-size: 30px;
+}
+#about .box .txtBeginnings p, #about .box .txtMarch p, #about .box .txtDecember p, #about .box .txtJuly p {
+  font-size: 20px;
+  color: #6C757D;
+}
+#about .box .imgbox, #about .box .image {
+  width: 170px;
+  height: 170px;
+  position: absolute;
+  left: 45%;
   border: 5px solid #E9ECEF;
   border-radius: 50%;
   overflow: hidden;
 }
-#about ul li .txt {
-  width: 41%;
-  line-height: 1.75;
-}
-#about ul li .txt h2 {
-  font-weight: 700;
-  font-size: 25px;
-}
-#about ul li .txt p {
-  font-size: 20px;
-  color: #6C757D;
-}
-#about ul li .image {
+#about .box .image {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #FFC800;
-}
-#about ul li .image h4 {
-  color: white;
-  padding: 30px;
-  font-size: 25px;
-  font-weight: 700;
   text-align: center;
-  line-height: 1.2;
+  background-color: #FFC800;
+  padding: 40px;
+  line-height: 1.3;
+}
+#about .box .image h4 {
+  color: white;
+  font-weight: 700;
+  font-size: 22px;
 }
 
 #team {
