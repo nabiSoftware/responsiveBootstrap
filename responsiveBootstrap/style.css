@@ -348,6 +348,30 @@ header .menu nav a:hover {
     font-weight: 500;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+  #about .box .imgbox, #about .box .image {
+    width: 90px;
+    height: 90px;
+  }
+  #about .box .txtBeginnings, #about .box .txtDecember {
+    padding-left: 30px;
+    padding-right: 0;
+    margin-right: 60px;
+  }
+  #about .box .txtMarch, #about .box .txtJuly {
+    padding-right: 20px;
+    padding-left: 0;
+    margin-left: 60px;
+  }
+  #about .box .image {
+    left: 43%;
+    padding: 16px;
+  }
+  #about .box .image h4 {
+    font-size: 15px;
+    font-weight: 500;
+  }
+}
 #team {
   background-color: #F8F9FA;
 }
