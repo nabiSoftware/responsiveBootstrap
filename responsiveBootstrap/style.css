@@ -257,6 +257,97 @@ header .menu nav a:hover {
   font-size: 22px;
 }
 
+@media screen and (max-width: 576px) {
+  #about .box .txtBeginnings, #about .box .txtDecember {
+    margin: 0 20px 0 100px;
+    padding: 0 0 0 20px;
+  }
+  #about .box .txtMarch, #about .box .txtJuly {
+    padding-right: 15px;
+  }
+  #about .box .imgbox, #about .box .image {
+    width: 90px;
+    height: 90px;
+    left: 0;
+    margin-left: 20px;
+  }
+  #about .box .image {
+    padding: 22px;
+  }
+  #about .box .image h4 {
+    font-size: 12px;
+    font-weight: 500;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 641px) {
+  #about .box .txtBeginnings, #about .box .txtDecember {
+    margin: 0 20px 0 110px;
+    padding-left: 20px;
+  }
+  #about .box .txtMarch, #about .box .txtJuly {
+    margin-left: 70px;
+    padding-right: 15px;
+  }
+  #about .box .imgbox, #about .box .image {
+    width: 90px;
+    height: 90px;
+    left: 10%;
+  }
+  #about .box .image {
+    left: 40%;
+    padding: 22px;
+  }
+  #about .box .image h4 {
+    font-size: 12px;
+    font-weight: 500;
+  }
+}
+@media screen and (min-width: 642px) and (max-width: 700px) {
+  #about .box .txtBeginnings, #about .box .txtDecember {
+    margin: 0 20px 0 110px;
+    padding-left: 20px;
+  }
+  #about .box .txtMarch, #about .box .txtJuly {
+    margin-left: 70px;
+    padding-right: 15px;
+  }
+  #about .box .imgbox, #about .box .image {
+    width: 90px;
+    height: 90px;
+    left: 10%;
+  }
+  #about .box .image {
+    left: 40%;
+    padding: 22px;
+  }
+  #about .box .image h4 {
+    font-size: 12px;
+    font-weight: 500;
+  }
+}
+@media screen and (min-width: 701px) and (max-width: 767px) {
+  #about .box .txtBeginnings, #about .box .txtDecember {
+    margin: 0 20px 0 110px;
+    padding-left: 20px;
+  }
+  #about .box .txtMarch, #about .box .txtJuly {
+    margin-left: 70px;
+    padding-right: 15px;
+  }
+  #about .box .imgbox, #about .box .image {
+    width: 90px;
+    height: 90px;
+    left: 15%;
+  }
+  #about .box .image {
+    left: 43%;
+    padding: 22px;
+  }
+  #about .box .image h4 {
+    font-size: 12px;
+    font-weight: 500;
+  }
+}
 #team {
   background-color: #F8F9FA;
 }
