@@ -201,177 +201,61 @@ header .menu nav a:hover {
   font-size: 18px;
 }
 
-#about .textbox, #about .txtBeginnings, #about .txtMarch, #about .txtDecember, #about .txtJuly {
-  line-height: 1.3;
-}
-#about .textbox h1, #about .txtBeginnings h1, #about .txtMarch h1, #about .txtDecember h1, #about .txtJuly h1 {
-  font-size: 50px;
+#about .textbox h1 {
   font-weight: 700;
+  font-size: 50px;
 }
-#about .textbox h3, #about .txtBeginnings h3, #about .txtMarch h3, #about .txtDecember h3, #about .txtJuly h3 {
+#about .textbox h3 {
   font-size: 20px;
   margin: 16px 0 50px;
   color: #6C757D;
 }
-#about .box {
+#about ul .listBeginnings, #about ul .listMarch, #about ul .listDecember, #about ul .listJuly {
   display: flex;
   margin-bottom: 150px;
 }
-#about .box .txtBeginnings, #about .box .txtDecember {
-  margin-right: 30px;
-  padding-right: 60px;
+#about ul .listBeginnings .textboxMarch, #about ul .listBeginnings .textboxJuly, #about ul .listMarch .textboxMarch, #about ul .listMarch .textboxJuly, #about ul .listDecember .textboxMarch, #about ul .listDecember .textboxJuly, #about ul .listJuly .textboxMarch, #about ul .listJuly .textboxJuly {
+  order: 1;
 }
-#about .box .txtMarch, #about .box .txtJuly {
-  margin-left: 60px;
-  padding-left: 60px;
+#about ul .listBeginnings .textboxBeginnings, #about ul .listBeginnings .textboxMarch, #about ul .listBeginnings .textboxDecember, #about ul .listBeginnings .textboxJuly, #about ul .listMarch .textboxBeginnings, #about ul .listMarch .textboxMarch, #about ul .listMarch .textboxDecember, #about ul .listMarch .textboxJuly, #about ul .listDecember .textboxBeginnings, #about ul .listDecember .textboxMarch, #about ul .listDecember .textboxDecember, #about ul .listDecember .textboxJuly, #about ul .listJuly .textboxBeginnings, #about ul .listJuly .textboxMarch, #about ul .listJuly .textboxDecember, #about ul .listJuly .textboxJuly {
+  width: 40%;
+  line-height: 1.3;
 }
-#about .box .txtBeginnings h2, #about .box .txtMarch h2, #about .box .txtDecember h2, #about .box .txtJuly h2 {
+#about ul .listBeginnings .textboxBeginnings h2, #about ul .listBeginnings .textboxMarch h2, #about ul .listBeginnings .textboxDecember h2, #about ul .listBeginnings .textboxJuly h2, #about ul .listMarch .textboxBeginnings h2, #about ul .listMarch .textboxMarch h2, #about ul .listMarch .textboxDecember h2, #about ul .listMarch .textboxJuly h2, #about ul .listDecember .textboxBeginnings h2, #about ul .listDecember .textboxMarch h2, #about ul .listDecember .textboxDecember h2, #about ul .listDecember .textboxJuly h2, #about ul .listJuly .textboxBeginnings h2, #about ul .listJuly .textboxMarch h2, #about ul .listJuly .textboxDecember h2, #about ul .listJuly .textboxJuly h2 {
+  font-size: 25px;
   font-weight: 700;
-  font-size: 30px;
 }
-#about .box .txtBeginnings p, #about .box .txtMarch p, #about .box .txtDecember p, #about .box .txtJuly p {
-  font-size: 20px;
+#about ul .listBeginnings .textboxBeginnings p, #about ul .listBeginnings .textboxMarch p, #about ul .listBeginnings .textboxDecember p, #about ul .listBeginnings .textboxJuly p, #about ul .listMarch .textboxBeginnings p, #about ul .listMarch .textboxMarch p, #about ul .listMarch .textboxDecember p, #about ul .listMarch .textboxJuly p, #about ul .listDecember .textboxBeginnings p, #about ul .listDecember .textboxMarch p, #about ul .listDecember .textboxDecember p, #about ul .listDecember .textboxJuly p, #about ul .listJuly .textboxBeginnings p, #about ul .listJuly .textboxMarch p, #about ul .listJuly .textboxDecember p, #about ul .listJuly .textboxJuly p {
   color: #6C757D;
+  font-size: 18px;
 }
-#about .box .imgbox, #about .box .image {
+#about ul .listBeginnings .imgbox, #about ul .listMarch .imgbox, #about ul .listDecember .imgbox, #about ul .listJuly .imgbox {
   width: 170px;
   height: 170px;
-  position: absolute;
-  left: 45%;
+  margin: 0 30px;
   border: 5px solid #E9ECEF;
   border-radius: 50%;
   overflow: hidden;
 }
-#about .box .image {
+#about .image {
+  width: 170px;
+  height: 170px;
+  background-color: #FFC800;
+  border: 5px solid #E9ECEF;
+  border-radius: 50%;
+  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  background-color: #FFC800;
-  padding: 40px;
   line-height: 1.3;
 }
-#about .box .image h4 {
-  color: white;
+#about .image h4 {
   font-weight: 700;
   font-size: 22px;
+  text-align: center;
+  color: white;
 }
 
-@media screen and (max-width: 576px) {
-  #about .box .txtBeginnings, #about .box .txtDecember {
-    margin: 0 20px 0 100px;
-    padding: 0 0 0 20px;
-  }
-  #about .box .txtMarch, #about .box .txtJuly {
-    padding-right: 15px;
-  }
-  #about .box .imgbox, #about .box .image {
-    width: 90px;
-    height: 90px;
-    left: 0;
-    margin-left: 20px;
-  }
-  #about .box .image {
-    padding: 22px;
-  }
-  #about .box .image h4 {
-    font-size: 12px;
-    font-weight: 500;
-  }
-}
-@media screen and (min-width: 577px) and (max-width: 641px) {
-  #about .box .txtBeginnings, #about .box .txtDecember {
-    margin: 0 20px 0 110px;
-    padding-left: 20px;
-  }
-  #about .box .txtMarch, #about .box .txtJuly {
-    margin-left: 70px;
-    padding-right: 15px;
-  }
-  #about .box .imgbox, #about .box .image {
-    width: 90px;
-    height: 90px;
-    left: 10%;
-  }
-  #about .box .image {
-    left: 40%;
-    padding: 22px;
-  }
-  #about .box .image h4 {
-    font-size: 12px;
-    font-weight: 500;
-  }
-}
-@media screen and (min-width: 642px) and (max-width: 700px) {
-  #about .box .txtBeginnings, #about .box .txtDecember {
-    margin: 0 20px 0 110px;
-    padding-left: 20px;
-  }
-  #about .box .txtMarch, #about .box .txtJuly {
-    margin-left: 70px;
-    padding-right: 15px;
-  }
-  #about .box .imgbox, #about .box .image {
-    width: 90px;
-    height: 90px;
-    left: 10%;
-  }
-  #about .box .image {
-    left: 40%;
-    padding: 22px;
-  }
-  #about .box .image h4 {
-    font-size: 12px;
-    font-weight: 500;
-  }
-}
-@media screen and (min-width: 701px) and (max-width: 767px) {
-  #about .box .txtBeginnings, #about .box .txtDecember {
-    margin: 0 20px 0 110px;
-    padding-left: 20px;
-  }
-  #about .box .txtMarch, #about .box .txtJuly {
-    margin-left: 70px;
-    padding-right: 15px;
-  }
-  #about .box .imgbox, #about .box .image {
-    width: 90px;
-    height: 90px;
-    left: 15%;
-  }
-  #about .box .image {
-    left: 43%;
-    padding: 22px;
-  }
-  #about .box .image h4 {
-    font-size: 12px;
-    font-weight: 500;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 1000px) {
-  #about .box .imgbox, #about .box .image {
-    width: 90px;
-    height: 90px;
-  }
-  #about .box .txtBeginnings, #about .box .txtDecember {
-    padding-left: 30px;
-    padding-right: 0;
-    margin-right: 60px;
-  }
-  #about .box .txtMarch, #about .box .txtJuly {
-    padding-right: 20px;
-    padding-left: 0;
-    margin-left: 60px;
-  }
-  #about .box .image {
-    left: 43%;
-    padding: 16px;
-  }
-  #about .box .image h4 {
-    font-size: 15px;
-    font-weight: 500;
-  }
-}
 #team {
   background-color: #F8F9FA;
 }
