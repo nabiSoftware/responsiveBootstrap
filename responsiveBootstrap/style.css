@@ -201,60 +201,6 @@ header .menu nav a:hover {
   font-size: 18px;
 }
 
-#about .textbox h1 {
-  font-weight: 700;
-  font-size: 50px;
-}
-#about .textbox h3 {
-  font-size: 20px;
-  margin: 16px 0 50px;
-  color: #6C757D;
-}
-#about ul .listBeginnings, #about ul .listMarch, #about ul .listDecember, #about ul .listJuly {
-  display: flex;
-  margin-bottom: 150px;
-}
-#about ul .listBeginnings .textboxBeginnings, #about ul .listBeginnings .textboxMarch, #about ul .listBeginnings .textboxDecember, #about ul .listBeginnings .textboxJuly, #about ul .listMarch .textboxBeginnings, #about ul .listMarch .textboxMarch, #about ul .listMarch .textboxDecember, #about ul .listMarch .textboxJuly, #about ul .listDecember .textboxBeginnings, #about ul .listDecember .textboxMarch, #about ul .listDecember .textboxDecember, #about ul .listDecember .textboxJuly, #about ul .listJuly .textboxBeginnings, #about ul .listJuly .textboxMarch, #about ul .listJuly .textboxDecember, #about ul .listJuly .textboxJuly {
-  width: 40%;
-  line-height: 1.3;
-}
-#about ul .listBeginnings .textboxBeginnings h2, #about ul .listBeginnings .textboxMarch h2, #about ul .listBeginnings .textboxDecember h2, #about ul .listBeginnings .textboxJuly h2, #about ul .listMarch .textboxBeginnings h2, #about ul .listMarch .textboxMarch h2, #about ul .listMarch .textboxDecember h2, #about ul .listMarch .textboxJuly h2, #about ul .listDecember .textboxBeginnings h2, #about ul .listDecember .textboxMarch h2, #about ul .listDecember .textboxDecember h2, #about ul .listDecember .textboxJuly h2, #about ul .listJuly .textboxBeginnings h2, #about ul .listJuly .textboxMarch h2, #about ul .listJuly .textboxDecember h2, #about ul .listJuly .textboxJuly h2 {
-  font-size: 25px;
-  font-weight: 700;
-}
-#about ul .listBeginnings .textboxBeginnings p, #about ul .listBeginnings .textboxMarch p, #about ul .listBeginnings .textboxDecember p, #about ul .listBeginnings .textboxJuly p, #about ul .listMarch .textboxBeginnings p, #about ul .listMarch .textboxMarch p, #about ul .listMarch .textboxDecember p, #about ul .listMarch .textboxJuly p, #about ul .listDecember .textboxBeginnings p, #about ul .listDecember .textboxMarch p, #about ul .listDecember .textboxDecember p, #about ul .listDecember .textboxJuly p, #about ul .listJuly .textboxBeginnings p, #about ul .listJuly .textboxMarch p, #about ul .listJuly .textboxDecember p, #about ul .listJuly .textboxJuly p {
-  color: #6C757D;
-  font-size: 18px;
-}
-#about ul .listBeginnings .imgbox, #about ul .listMarch .imgbox, #about ul .listDecember .imgbox, #about ul .listJuly .imgbox {
-  position: absolute;
-  left: 41%;
-  width: 170px;
-  height: 170px;
-  margin: 0 30px;
-  border: 5px solid #E9ECEF;
-  border-radius: 50%;
-  overflow: hidden;
-}
-#about .image {
-  width: 170px;
-  height: 170px;
-  background-color: #FFC800;
-  border: 5px solid #E9ECEF;
-  border-radius: 50%;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  line-height: 1.3;
-}
-#about .image h4 {
-  font-weight: 700;
-  font-size: 22px;
-  text-align: center;
-  color: white;
-}
-
 #team {
   background-color: #F8F9FA;
 }
