@@ -19,10 +19,10 @@ header {
   top: 0;
   z-index: 1;
 }
-header .menu .imgbox {
+header .menu a .imgbox {
   width: 200px;
 }
-header .menu .imgbox img:hover {
+header .menu a .imgbox img:hover {
   cursor: pointer;
 }
 header .menu nav {
