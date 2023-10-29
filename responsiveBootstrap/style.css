@@ -54,7 +54,7 @@ header .menu nav a:hover {
   background-image: url("/assets/header-bg.jpg");
   background-size: cover;
   background-position: center;
-  margin-top: 70px;
+  margin-top: 40px;
 }
 #welcome .textbox h1, #welcome .textbox h2 {
   color: white;
