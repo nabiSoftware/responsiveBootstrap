@@ -25,9 +25,6 @@ header .menu a .imgbox {
 header .menu a .imgbox img:hover {
   cursor: pointer;
 }
-header .menu nav {
-  display: block;
-}
 header .menu nav a {
   margin: 20px;
   color: #f4f4f4;
@@ -47,6 +44,9 @@ header .menu nav a:hover {
     color: #969597;
     font-size: 30px;
     margin: 10px;
+  }
+  header nav i:hover {
+    cursor: pointer;
   }
 }
 #welcome {
