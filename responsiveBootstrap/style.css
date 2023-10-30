@@ -250,6 +250,42 @@ header .menu nav a:hover {
   font-weight: 700;
 }
 
+@media screen and (max-width: 660px) {
+  #about {
+    justify-content: flex-end;
+  }
+  #about .box .textboxBeginnings, #about .box .textboxMarch, #about .box .textboxDecember, #about .box .textboxJuly {
+    padding: 0;
+    margin: 0 20px 0 110px;
+  }
+  #about .box .imgbox, #about .box .image {
+    left: 0;
+    width: 90px;
+    height: 90px;
+    margin: 20px;
+    border: 5px solid #e9ecef;
+  }
+  #about .box .image h3 {
+    font-size: 13px;
+    font-weight: 500;
+  }
+}
+@media screen and (min-width: 661px) and (max-width: 767px) {
+  #about .box .textboxBeginnings, #about .box .textboxMarch, #about .box .textboxDecember, #about .box .textboxJuly {
+    padding: 0 20px 0 135px;
+  }
+  #about .box .imgbox, #about .box .image {
+    left: 0;
+    width: 90px;
+    height: 90px;
+    margin-left: 105px;
+    border: 5px solid #e9ecef;
+  }
+  #about .box .image h3 {
+    font-size: 13px;
+    font-weight: 500;
+  }
+}
 #team {
   background-color: #F8F9FA;
 }
