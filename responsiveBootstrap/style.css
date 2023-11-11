@@ -285,9 +285,17 @@ header .menu nav a:hover {
     font-weight: 500;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
   #about .box .textboxBeginnings, #about .box .textboxMarch, #about .box .textboxDecember, #about .box .textboxJuly {
     padding: 0;
+  }
+  #about .box .textboxBeginnings, #about .box .textboxDecember {
+    padding-right: 90px;
+    padding-left: 30px;
+  }
+  #about .box .textboxMarch, #about .box .textboxJuly {
+    padding-left: 70px;
+    padding-right: 41px;
   }
   #about .box .imgbox, #about .box .image {
     width: 90px;
