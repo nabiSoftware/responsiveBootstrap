@@ -13,10 +13,10 @@
     .box
         form
             margin-bottom: 50px
-            .formBox
-                margin-right: 30px
+            .minibox
+                width: 100%
                 input
-                    width: 100%
+                    width: 90%
                     font-size: 20px
                     font-weight: 600
                     padding: 20px
@@ -24,7 +24,7 @@
                     border: none
                     border-radius: 5px
             textarea
-                width: 60%
+                width: 90%
                 font-size: 20px
                 font-weight: 600
                 padding: 20px
@@ -43,3 +43,8 @@
 
 @media screen and ( max-width: 767px )
     #contact
+        text-align: center
+        form
+            display: flex
+            flex-direction: column
+            align-items: center
