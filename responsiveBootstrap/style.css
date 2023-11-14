@@ -141,6 +141,7 @@ header .menu nav a:hover {
   justify-content: center;
 }
 #services .txt {
+  text-align: center;
   padding: 0 60px;
 }
 #services .txt h2 {
