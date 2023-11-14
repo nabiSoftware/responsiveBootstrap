@@ -393,7 +393,12 @@ header .menu nav a:hover {
     margin-bottom: 50px;
   }
 }
-#platforms .imgbox {
+#platforms .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#platforms .box .imgbox {
   width: 150px;
   margin: 30px;
 }
